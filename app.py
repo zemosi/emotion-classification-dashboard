@@ -208,7 +208,7 @@ def index():  # put application's code here
         since = form_data.get('since')
         until = form_data.get('until')
         emotion_data = scrap(count,query,since,until)
-        return render_template('index.html', output=output, status=status, emotion_data = emotion_data)
+        return render_template('index.html', output=output, status=status, emotion_data = emotion_data, query=query)
     # If request method is GET, here
     else:
         return render_template('index.html', status=status)
