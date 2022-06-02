@@ -1,2 +1,0 @@
-# riset-digital
-Riset Digital
