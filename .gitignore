@@ -1,8 +1,0 @@
-.idea/
-venv
-*.pickle
-*.sav
-*.json
-test.py
-__pycache__/
-.DS_Store
